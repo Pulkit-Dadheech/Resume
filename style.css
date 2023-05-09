@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+}
+p{
+    font-size: 0.8rem;
+    color: #888;
+}
+li{
+    font-size: 0.8rem;
+    color: #888;
+}
+
+h2{
+    font-weight: normal;
+    color: #888;
+}
+h3{
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #888;
+    margin-block: 10px;
+}
+h4{
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+
+.container{
+    width: 70%;
+    display: flex;
+    gap: 20px;
+    margin-inline: auto;
+    margin-block: 20px;
+    border: 15px solid rgba(30, 162, 162, 0.155);
+
+}
+
+.card{
+    background-color: white;
+    box-shadow: 4px 4px 4px #ccc;
+    padding: 20px;
+}
+.education-card{
+        background-color: white;
+        box-shadow: 4px 4px 4px #ccc; 
+        padding-top: 20px;
+        padding-bottom: 5px;
+        padding-inline: 20px;   
+}
+
+
+.left-column{
+    width: 35%;
+
+}
+.right-column{
+    width: 65%;
+
+    display: flex;  
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image-box{
+   
+    
+    /* width: 170px; */
+    height: 170px;
+    position: relative;
+    
+    margin-inline: auto;
+    overflow: hidden;
+    /* border-radius: 50%; */
+}
+img{
+    position: absolute;
+    left: 0px;
+    top: -30px;
+    width: 90%;
+}
+.image-box .username{
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 3px;
+    left: 15px;
+}
+.contact-info ul{
+    list-style-type: none;
+}
+.icon-text{
+    display: flex;
+    gap: 10px ;
+    align-items: center;
+}
+i{
+    color: teal;
+}
+.Sub-topic{
+    display: block;
+}
+.progress-bar{
+    background-color: #ccc ;
+    border-radius: 20px;
+    margin-block: 4px;
+    
+    
+}
+.progress{
+    background-color: teal;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 0.6rem;
+}
+.skills ul li{
+    list-style-type: none;
+}
+.Project-card
+{
+    position: relative;
+}
+
+.Project-icon{
+    
+position: relative;
+width: 100%;
+
+    /* position: absolute;
+    top: 20px;
+    
+    overflow:hidden; */
+}
+/*  
+.Project-card h2{
+    position: absolute;
+    left: 200px;
+    top: 20px;
+} */
+.Description1{
+    color: #212121;
+}
+.left-desc{
+    margin-inline:20px;
+}
+ul{
+    margin-block: 20px;
+}
+ul>li{
+    margin-top: 8px;
+}
+hr{
+    border: 1px solid #888;
+}
+.skills{
+    margin-top: 30px;
+}
+.icon-text p{
+    color: teal ;
+}
+.Project-heading{
+    color: white;
+    font-size: 0.8rem;
+    
+}
+.Project-heading span{
+    padding: 3px 6px;
+    border-radius: 10px;
+    background-color: teal;
+
+}
+
+article{
+    list-style-type: none;
+    margin-block: 20px;
+}
+.Description4{
+    padding-block: 2px;
+    color: #212121;
+}
+.Extra1{
+    padding: 2px 0px;
+}
+.Extra2{
+    padding: 2px 0px;
+}
+.Extra3{
+    padding-top: 2px 0px;
+}
+.Extra-card{
+    background-color: white;
+    box-shadow: 4px 4px 4px #ccc;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-inline: 20px; 
+    
+}
+.Name{
+    font-size: 59px;
+    color: #ccc;
+}
+.Name2{
+    display: block;
+    
+}
+.Name1{
+
+    margin-inline: 90px;
+
+
+   
+    
+}
+.Name3{
+   border: 0.5px solid #ccc; 
+}
